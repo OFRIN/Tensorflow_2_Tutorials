@@ -1,0 +1,8 @@
+
+*/experiments/*
+*.data*
+*.index*
+checkpoint
+
+*/mnist/*
+
