@@ -82,7 +82,7 @@ class Dataset_for_classification:
                 count = 0
                 while count < self.batch_size:
                     index = self.batch_count * self.batch_size + count
-
+                    
                     image_path = self.image_paths[index]
                     label = self.data_dic[image_path]
                     

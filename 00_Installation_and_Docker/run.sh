@@ -23,5 +23,5 @@ docker run \
     --device=/dev/video0 \
 	--workdir "$(pwd)" \
 	ofrin/tensorflow_2.2_custom:latest \
-    python test.py
+    python generate_tfrecords.py
 

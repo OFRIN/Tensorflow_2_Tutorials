@@ -6,3 +6,6 @@ checkpoint
 
 */mnist/*
 
+*.pkl
+*.tfrecord
+
